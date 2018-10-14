@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.glamourru.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.greenapp" version="1.0.21" versionCode="1021" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Loanwi</name>
     <description>
         Loanwi
     </description>
+    <author email="konstantin.alexandrovitch2017@yandex.by" href="https://vk.com/id5267818">
+        Loanwi
+    </author>
     <content src="index.html" />
     <allow-navigation href="*youtube*" />
     <allow-navigation href="*ytimg*" />
@@ -23,6 +26,9 @@
         <allow-intent href="itms-apps:*" />
         <preference name="BackupWebStorage" value="none" />
     </platform>
+    <preference name="StatusBarBackgroundColor" value="#ff5200" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <platform name="android">
         <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
@@ -44,6 +50,7 @@
         <splash density="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <icon height="1536" platform="ios" src="res/icon/ios/iTunesArtwork@3x.png" width="1536" />
         <icon height="57" platform="ios" src="res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="res/icon/ios/icon-40.png" width="40" />
@@ -71,5 +78,5 @@
         <splash height="960" platform="ios" src="res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="res/screen/ios/Default~iphone.png" width="320" />
     </platform>
-    <plugin name="im.ltdev.cordova.UserAgent" spec="https://github.com/LouisT/cordova-useragent" />
+
 </widget>
