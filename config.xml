@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.glamourru.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Glamour-RU</name>
+    <name>Loanwi</name>
     <description>
-        Glamour-RU
+        Loanwi
     </description>
     <content src="index.html" />
-    <preference name="orientation" value="landscape" />
     <allow-navigation href="*youtube*" />
     <allow-navigation href="*ytimg*" />
     <allow-navigation href="*" />
@@ -73,7 +72,4 @@
         <splash height="480" platform="ios" src="res/screen/ios/Default~iphone.png" width="320" />
     </platform>
     <plugin name="im.ltdev.cordova.UserAgent" spec="https://github.com/LouisT/cordova-useragent" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
-    <plugin name="cordova-plugin-crosswalk-webview" spec="^2.4.0" />
 </widget>
